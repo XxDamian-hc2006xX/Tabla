@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tabla diseño</title>
+  <style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f0f8ff;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      height: 100vh;
+      text-align: center;
+      table-layout: fixed;
+    }
+    th, td {
+      border: 1px solid #d1d1d1;
+      padding: 20px;
+      width: 25%; 
+      text-align: center;
+
+    }
+    img {
+      max-width: 100%;
+      height: auto;
+      max-height: 150px; 
+    }
+     thead th {
+      background-color: #4a6ee0;
+      color: white;
+      font-size: 1.8rem;
+      padding: 25px;
+    }
+     ol, ul {
+      text-align: center;
+      padding-right: 20px;
+    }
+     a {
+      color: #4a6ee0;
+      text-decoration: none;
+
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <thead>
+      <tr>
+        <th colspan="4">Los perritos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><p>Son mamiferos domesticos descendientes del lobo, además son animales sociales y leales</p>
+            <p>Tienen un promedio de vida de 10 a 15 años</p></td>
+        <td class="celda-imagen" colspan="2">
+          <img src="licPugberto.jpg" alt="licPugberto" title="licPugberto">
+        </td>
+        <td><p>Tienen excelente olfato, hasta 100 veces mayor al del humano. También poseen un oido muy desarrollado</p>
+            <p>Poseen 42 dientes cuando son adultos y  vienen de muchos tamaños y colores</p></td>
+      </tr>
+      <tr>
+        <td colspan="2">
+          <h4>Cuidado</h4>
+          <ol>
+            <li>Necesitan vacunas</li>
+            <li>Deben tener paseos diarios</li>
+            <li>Tienen que asistir al veterinario</li>
+            <li>Deben tener una dieta balanceada</li>
+          </ol>
+        </td>
+        <td colspan="2"> 
+          <h4>Importancia</h4>
+          <ul>
+            <li>Compañía y apoyo emocional</li>
+            <li>Trabajo de busqueda y rescate</li>
+            <li>Sirven como perros guía</li>
+            <li>Sirven como apoyo durante terapia</li>
+          </ul></td>
+      </tr>
+      <tr>
+        <td colspan="4">Información extra sobre los perritos en los links posteriores a este escrito</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <td><a href="https://youtu.be/aKLW0kQ83qg?si=I_83vK1NBOCaUKZU">Chihuahuas y sus habilidades</a></td>
+        <td><a href="https://images.milenio.com/MEWh9qj7OPn-2ZktLTrU6fpqwH0=/942x532/uploads/media/2022/01/15/pitbull-es-originario-de-cuba.jpg">Pitbull</a></td>
+        <td><a href="https://i.pinimg.com/236x/a0/3f/44/a03f440b89c3be298d055f84780aac92--ghosts.jpg">Disfraces comunes en perros</a></td>
+        <td><p>Un meme sobre perros</p><iframe src="https://www.youtube.com/embed/8On78J3vLr4" title="Video sobre perritos"></iframe></td>
+      </tr>
+    </tfoot>
+  </table>
+</body>
+</html>
